@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <!-- head -->
+    <head>
+        <!-- title of the page -->
+        <title>Stop Watch</title>
+        <!-- css file link -->
+        <link rel="stylesheet" href="./index.css">
+        <!-- javascript file link -->
+        <script src="./index.js"></script>
+    </head>
+    <!-- body -->
+    <body>
+        <div id="background">
+            
+            <div id="about">
+                <h2>Stop-Watch</h2>
+                <h1>Sai Kumar</h1>
+            </div>
+            <div id="display">
+
+                <!-- time display-->
+
+
+                <div class="timer">
+                    <h1>|</h1>
+                  </div>
+                  <div class="timer" >
+                    <h1 id="min">00</h1>
+                    <h3>minutes</h3>
+                  </div>
+                  <div class="timer">
+                    <h1>|</h1>
+                  </div>
+                  <div class="timer" >
+                    <h1 id="sec">00</h1>
+                    <h3>seconds</h3>
+                  </div>
+                  <div class="timer">
+                    <h1>|</h1>
+                  </div>
+                  <div class="timer" >
+                    <h1 id="mill">00</h1>
+                    <h3>milliseconds</h3>
+                  </div>
+                  <div class="timer">
+                    <h1>|</h1>
+                  </div>
+            </div>
+
+            <!-- control menu -->
+
+            
+            <div id="menu">
+                <!-- on hover has been controlled by the css  -->
+                <button onclick="reset()">reset</button>
+                <button onclick="start(true)" id="button2">start</button>
+                <button onclick="stop()">stop</button>
+            </div>
+        </div>
+    </body>
+</html>
